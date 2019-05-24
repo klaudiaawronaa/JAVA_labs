@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerTwo">
+    <children>
+        <Label layoutX="241.0" layoutY="50.0" prefHeight="17.0" prefWidth="29.0" text="Title:" />
+        <Label layoutX="223.0" layoutY="100.0" prefHeight="17.0" prefWidth="46.0" text="Priority:" />
+        <Label layoutX="184.0" layoutY="150.0" prefHeight="17.0" prefWidth="84.0" text="Expiration date:" />
+        <TextArea fx:id="description" layoutX="85.0" layoutY="286.0" prefHeight="88.0" prefWidth="515.0" />
+        <TextField fx:id="title" layoutX="270.0" layoutY="46.0" />
+        <ChoiceBox fx:id="priority" layoutX="269.0" layoutY="96.0" prefWidth="150.0" />
+        <Button fx:id="add" layoutX="283.0" layoutY="393.0" mnemonicParsing="false" onAction="#add" prefHeight="61.0" prefWidth="121.0" text="Add Task" />
+        <Label layoutX="85.0" layoutY="269.0" text="Description:" />
+      <DatePicker fx:id="expDate" layoutX="270.0" layoutY="146.0" prefHeight="25.0" prefWidth="150.0" />
+    </children>
+</Pane>

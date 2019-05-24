@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="489.0" minWidth="684.0" prefHeight="489.0"
+      prefWidth="684.0" xmlns="http://javafx.com/javafx/8" fx:controller="ControllerOne">
+
+    <children>
+        <TableView fx:id="toDoTable" layoutX="23.0" layoutY="62.0" prefHeight="316.0" prefWidth="200.0">
+            <placeholder>
+                <Label text=""/>
+            </placeholder>
+            <columns>
+                <TableColumn fx:id="toDoColumn" prefWidth="198.0" text="TO DO"/>
+            </columns>
+        </TableView>
+        <Button fx:id="button2" layoutX="296.0" layoutY="392.0" mnemonicParsing="false" onAction="#addNewTask"
+                prefHeight="83.0" prefWidth="93.0" text="Add Task"/>
+        <TableView fx:id="inProgressTable" layoutX="242.0" layoutY="62.0" prefHeight="316.0" prefWidth="200.0">
+            <placeholder>
+                <Label text=""/>
+            </placeholder>
+            <columns>
+                <TableColumn fx:id="inProgressColumn" prefWidth="199.0" text="IN PROGRESS"/>
+            </columns>
+        </TableView>
+        <TableView fx:id="doneTable" layoutX="460.0" layoutY="62.0" prefHeight="316.0" prefWidth="200.0">
+            <placeholder>
+                <Label text=""/>
+            </placeholder>
+            <columns>
+                <TableColumn fx:id="doneColumn" prefWidth="199.0" text="DONE"/>
+            </columns>
+        </TableView>
+    </children>
+</Pane>

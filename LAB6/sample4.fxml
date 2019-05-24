@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerFour">
+   <children>
+      <RadioButton fx:id="option1" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="option2" layoutX="14.0" layoutY="55.0" mnemonicParsing="false" text="RadioButton" />
+      <Button fx:id="moveButton" layoutX="174.0" layoutY="30.0" mnemonicParsing="false" onAction="#doneMoving" prefHeight="40.0" prefWidth="62.0" text="Move" />
+   </children>
+</Pane>
